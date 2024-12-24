@@ -41,22 +41,6 @@ function displayCountryData(data) {
         </div>`;
 }
 
-// function displayCountryData(data) {
-//     const container = document.getElementById("result-container");
-//     container.innerHTML = `
-//         <div class="col-md-4">
-//             <div class="card">
-//                 <img src="${data.flags[0]}" class="card-img-top" alt="${data.name.common} Flag">
-//                 <div class="card-body">
-//                     <h5 class="card-title">${data.name.common}</h5>
-//                     <p class="card-text">Population: ${data.population}</p>
-//                     <p class="card-text">Capital: ${data.capital}</p>
-//                     <button class="btn btn-info" onclick="showWeatherData('${data.capital}')">More Details</button>
-//                 </div>
-//             </div>
-//         </div>`;
-// }
-
 function displayWeatherData(data) {
     const container = document.getElementById("result-container");
     container.innerHTML += `
