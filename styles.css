@@ -1,0 +1,17 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Arial, sans-serif";
+}
+
+.card {
+    margin: 15px 0;
+}
+
+.btn-info {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #0056b3;
+}
